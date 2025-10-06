@@ -8,7 +8,7 @@ from aiogram.utils.markdown import hbold
 
 # --- ВАШИ НАСТРОЙКИ (вставьте сюда ваши данные) ---
 # Токен теперь будем брать из переменных окружения, это безопаснее
-TOKEN = os.environ.get("7598230437:AAERUTJ48urvWviIRLxlXhIqjGevNRRlFio", "7598230437:AAERUTJ48urvWviIRLxlXhIqjGevNRRlFio")
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "7598230437:AAERUTJ48urvWviIRLxlXhIqjGevNRRlFio")
 WEB_APP_URL = "https://udobnamebel.github.io/Catalog"
 ABOUT_US_URL = "https://telegra.ph/O-nas-Mebel-Udobna-02-24"
 CONTACTS_URL = "https://taplink.cc/udobnamebel"
